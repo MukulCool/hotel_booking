@@ -1,10 +1,10 @@
 import mysql.connector
 
-# Replace these with your own RDS details
-host = 'hotelinfor.ceaxfkiehv5z.ap-south-1.rds.amazonaws.com'
-username = 'admin'
-password = 'tigercool'
-database = 'hotelinfor'
+# Replace these with your own database details
+host = 'host'
+username = 'username'
+password = 'password'
+database = 'database'
 
 try:
     conn = mysql.connector.connect(
